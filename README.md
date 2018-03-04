@@ -5,6 +5,13 @@ When version contains SNAPSHOT, suffix is a timestamp, otherwise it is empty.
 
 Usage:
 ```
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
